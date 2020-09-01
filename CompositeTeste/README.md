@@ -1,0 +1,1 @@
+Composite é um padrão de design de software usado para representar objetos compostos de objetos semelhantes. Este grupo de objetos assume que pertence à mesma hierarquia de classes. Esse padrão geralmente é usado para representar listas repetidas ou recursivas de elementos.
