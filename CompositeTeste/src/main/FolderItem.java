@@ -3,7 +3,7 @@ package main;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FolderItem extends Component 
+public  class FolderItem extends Component 
 {
     protected List<Component> list = new ArrayList<>(); 
     
@@ -23,12 +23,12 @@ public class FolderItem extends Component
         return (Component) list.get(i);
     }
     
-    public float getSize() {
-        float totalSize = 0;
+    public float getpages() {
+        float totalpages  = 0;
         for (Component f : list) {
-            totalSize = totalSize + f.getSize();
+            totalpages  = totalpages  + f.getpages();
         }
-        return totalSize;
+        return totalpages ;
     }
 
     public void list() {

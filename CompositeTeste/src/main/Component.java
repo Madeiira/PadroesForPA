@@ -12,7 +12,7 @@ public abstract class Component
       return this.name;
     }
 
-    public abstract float getSize();
+    public abstract float getpages();
  
     public void add(Component g) throws Exception {
         throw new Exception();

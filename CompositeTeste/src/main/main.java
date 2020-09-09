@@ -5,24 +5,24 @@ public class main {
 	    {
 		    {
 		        try {
-		          // Creating a component tree
+		    
 		          Component component = new FolderItem("Root");
 		  
-		          // Adding all accounts of a customer to component
-		          component.add(new FileItem("DA01", 100));
-		          component.add(new FileItem("DA02", 150));
+		         
+		          component.add(new Fileitem("HP", 300));
+		          component.add(new Fileitem("HP", 450));
 
-		          // Creating a component tree
+		  
 		          Component subFolder = new FolderItem("subFolder");
 		          component.add(subFolder);
 		  
-		          subFolder.add(new FileItem("FILE001", 200));
-		          subFolder.add(new FileItem("FILE002", 100));
-		          subFolder.add(new FileItem("FILE003", 300));
+		          subFolder.add(new Fileitem("BOOK01", 400));
+		          subFolder.add(new Fileitem("BOOK02", 250));
+		          
 		  
-		          // getting composite balance for the customer
-		          float totalSize = component.getSize();
-		          System.out.println("Total Size : " + totalSize);
+		       
+		          float totalpages = component.getpages();
+		          System.out.println("Total pages : " + totalpages);
 
 		          ((FolderItem) component).list();
 		        }
