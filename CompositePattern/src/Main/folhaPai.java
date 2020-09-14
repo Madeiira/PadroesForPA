@@ -3,7 +3,7 @@ package Main;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class folhaPai implements arvore {
+public  class folhaPai implements arvore {
 	  
 	    private Integer id;
 	    private String name;
@@ -16,7 +16,7 @@ public abstract class folhaPai implements arvore {
 	        this.folhasFilhas = new ArrayList<>();
 	    }
 	 
-	    public void printFolha() {
+	    public void printArvore() {
 	    	folhasFilhas.forEach(arvore::printArvore);
 	    }
 	 
@@ -27,5 +27,8 @@ public abstract class folhaPai implements arvore {
 	    public void removeFolha(arvore Arvore) {
 	    	folhasFilhas.remove(Arvore);
 	    }
+
+
+		
 	}
 

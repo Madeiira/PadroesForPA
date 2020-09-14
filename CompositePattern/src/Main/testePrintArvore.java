@@ -3,17 +3,17 @@ package Main;
 public class testePrintArvore {
 
 	    public static void main(String args[]) {
-	        arvore folhaComercial = new folhaComercial(1, " Folha Comercial ");
-	        arvore folhaMarketPlace = new folhaMarketPlace(2," Folhar MarketPlace ");
+	        arvore folhaComercial = new folhaComercial();
+	        arvore folhaMarketPlace = new folhaMarketPlace();
 	 
-	        folhaPai folhapai = new folhaPai(3," Folha Pai ");
+	        folhaPai folhapai = new folhaPai(3, "Teste pai");
 			
 			
 	   	 
 	        folhapai.addFolha(folhaMarketPlace);
 	        folhapai.addFolha(folhaComercial);
 	 
-	        folhapai.printFolha();
+	        folhapai.printArvore();
 	    }
 	
 }
