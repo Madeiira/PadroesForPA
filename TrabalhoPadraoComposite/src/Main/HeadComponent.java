@@ -3,14 +3,14 @@ package Main;
 import java.util.ArrayList;
 import java.util.List;
 
-public  class folhaPai implements arvores {
+public  class HeadComponent implements arvores {
 	//OK
 	    private Integer id;
 	    private String name;
 	 
 	    private List<arvores> folhasFilhas;
 	 
-	    public folhaPai(Integer id, String name) {
+	    public HeadComponent(Integer id, String name) {
 	        this.id = id;
 	        this.name = name;
 	        this.folhasFilhas = new ArrayList<>();

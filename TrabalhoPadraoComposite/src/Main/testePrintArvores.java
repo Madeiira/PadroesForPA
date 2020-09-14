@@ -6,7 +6,7 @@ public class testePrintArvores {
 	        arvores folhacomercial = new folhaComercial(1,"Folha Comercial");
 	        arvores folhamarketPlace = new folhaMarketPlace(2,"Folha MarketPlace");
 	 
-	        folhaPai folhapai = new folhaPai(3, "Teste pai");
+	        HeadComponent folhapai = new HeadComponent(3, "Teste pai");
 			
 			
 	   	 
