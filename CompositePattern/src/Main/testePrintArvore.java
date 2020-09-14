@@ -1,7 +1,7 @@
 package Main;
 
 public class testePrintArvore {
-
+	//OK
 	    public static void main(String args[]) {
 	        arvore folhaComercial = new folhaComercial();
 	        arvore folhaMarketPlace = new folhaMarketPlace();

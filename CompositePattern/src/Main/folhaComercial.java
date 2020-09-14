@@ -2,7 +2,7 @@ package Main;
 
 
 	public class folhaComercial implements arvore {
-		 
+		//OK
 	    private Integer id;
 	    private String name;
 	 
