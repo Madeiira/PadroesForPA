@@ -1,5 +1,16 @@
+#Padrão Composite
+
+##Descrição:
 Composite é um padrão de design de software usado para representar objetos compostos de objetos semelhantes. Este grupo de objetos assume que pertence à mesma hierarquia de classes. Esse padrão geralmente é usado para representar listas repetidas ou recursivas de elementos.
 
+##Motivação:
+Foi a existência do meu estágio, trabalho com integrações de MarketPlaces com Sellers
+
+##Aplicação:
+Ver quais sãos as folhas de um container, aonde se trabalha com integrações MarketPlaces.
+
+
+##Estrutura:
 Interface basica no arvores.java
 
 Classes leafs  folhaComercial.java e folhaMarketPlace.java
@@ -12,3 +23,5 @@ O método composto printArvore () é implementado iterando sobre a lista de elem
 
 Classe para testar o retorno.
 Testando com o método de composição printArvore () . Como esperamos, a saída contém os nomes das classes de cada componente folha, dito anteriormente
+
+##Pasta com o codigo " SRC ".
