@@ -24,4 +24,5 @@ O método composto printArvore () é implementado iterando sobre a lista de elem
 ### Classe para testar o retorno.
 Testando com o método de composição printArvore () . Como esperamos, a saída contém os nomes das classes de cada componente folha, dito anteriormente
 
-## Pasta com o codigo " src/Main ".
+## Pasta com o codigo:
+(src/main)
