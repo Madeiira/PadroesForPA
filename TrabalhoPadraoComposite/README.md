@@ -25,4 +25,4 @@ O método composto printArvore () é implementado iterando sobre a lista de elem
 Testando com o método de composição printArvore () . Como esperamos, a saída contém os nomes das classes de cada componente folha, dito anteriormente
 
 ## Pasta com o codigo:
-[Caminho:](/TrabalhoPadraoComposite/src/Main)
+[CODEPASTE](/TrabalhoPadraoComposite/src/Main)
