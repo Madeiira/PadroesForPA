@@ -11,6 +11,11 @@
 
 
 ## Estrutura:
+(file:///C:/Users/Gabriel/Pictures/Template_Method.png)
+
+
+## Pasta com o codigo:
+[CODEPASTE](/trabalhoTamplateMethodPA/src/trabalhoTamplateMethodPA)
 
 ### Classe abstrata base:Treinos.java.
 Classe java abstrata, com o objetivo de preparar metodos bases e encapsulalos.
@@ -21,5 +26,3 @@ Classes aonde se encontram duas funções espelhos, sendo elas com o seu modific
 ### Classe concreta: main.java.
 Sendo ela a classe concreta, tendo nela as instancias das classes usadas como implemento da classe base.
 Também possuindo a execução das rotinas necessárias para o objetivo do projeto.
-## Pasta com o codigo:
-[CODEPASTE](/trabalhoTamplateMethodPA/src/trabalhoTamplateMethodPA)
