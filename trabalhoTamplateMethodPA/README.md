@@ -11,7 +11,7 @@
 
 
 ## Estrutura:
-![structure](D:\java-2020-06\padraoTemplate_Method.png)
+![structure](https://sourcemaking.com/files/v2/content/patterns/Template_Method.png)
 
 
 ## Pasta com o codigo:
