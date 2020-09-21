@@ -11,7 +11,7 @@
 
 
 ## Estrutura:
-![structure](https://sourcemaking.com/files/v2/content/patterns/Template_Method.png)
+![structure](https://www.tutorialspoint.com/design_pattern/images/template_pattern_uml_diagram.jpg)
 
 
 ## Pasta com o codigo:
