@@ -11,6 +11,11 @@ Ver quais sãos as folhas de um container, aonde se trabalha com integrações M
 
 
 ## Estrutura:
+![structure](https://2.bp.blogspot.com/-t88k0zLYMwA/UGMuUovjwzI/AAAAAAAAAaU/OA8Qoov2hZA/s640/CompositeDesignPatternGeneric.gif)
+
+## Pasta com o codigo:
+[CODEPASTE](/TrabalhoPadraoComposite/src/Main)
+
 Interface basica no arvores.java
 
 ### Classes leafs  folhaComercial.java e folhaMarketPlace.java
@@ -23,6 +28,3 @@ O método composto printArvore () é implementado iterando sobre a lista de elem
 
 ### Classe para testar o retorno.
 Testando com o método de composição printArvore () . Como esperamos, a saída contém os nomes das classes de cada componente folha, dito anteriormente
-
-## Pasta com o codigo:
-[CODEPASTE](/TrabalhoPadraoComposite/src/Main)
