@@ -11,7 +11,7 @@
 
 
 ## Estrutura:
-![structure](file:///C:/Users/Gabriel/Pictures/Template_Method.png)
+![structure](https://prnt.sc/unf44a)
 
 
 ## Pasta com o codigo:
