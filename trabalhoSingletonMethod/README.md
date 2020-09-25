@@ -15,7 +15,7 @@
 
 
 ## Pasta com o codigo:
-[CODEPASTE](/trabalhoTamplateMethodPA/src/trabalhoTamplateMethodPA)
+[CODEPASTE](/trabalhoSingletonMethod/src/main)
 
 ### Classe abstrata base:Treinos.java.
 Classe java abstrata, com o objetivo de preparar metodos bases e encapsulalos.
