@@ -1,4 +1,4 @@
-# Padrão TemplateMethod
+# Padrão SingletonMethod
 
 ## Descrição:
 ### O padrão Template Method usa uma classe base abstrata, que encapsula o template do algoritmo em um método, para que a classe concreta possa herdar/extends desta classe e executar certas etapas do algoritmo.
