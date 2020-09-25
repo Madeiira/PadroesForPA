@@ -1,13 +1,13 @@
 # Padrão SingletonMethod
 
 ## Descrição:
-### O padrão Template Method usa uma classe base abstrata, que encapsula o template do algoritmo em um método, para que a classe concreta possa herdar/extends desta classe e executar certas etapas do algoritmo.
+### É uma classe instanciada apenas uma vez. Um singleton é geralmente o único componente do sistema, como um um gerenciador de janela num sistema operacional ou o sistema de arquivos.
 
 ## Motivação:
-### Foi a existência de uma paixão minha, que é treinar na academia, tenho 5 anos de treino, com esse tempo acabei estudando e conhecedo bastante sobre esta area.
+### Foi um exemplo basico, mostrando uma string base para mais de uma chamada do singleton, para estudar mais o relacionamento dos hashCodes, vendo aonde e como eles podem mudar.
 
 ## Aplicação:
-### Ajudar sobre a existencia de dois de muitos métodos de treinos/dietas de um praticante de musculação.
+### Ver mais da naturezas dos hash.
 
 
 ## Estrutura:
@@ -17,12 +17,10 @@
 ## Pasta com o codigo:
 [CODEPASTE](/trabalhoSingletonMethod/src/main)
 
-### Classe abstrata base:Treinos.java.
-Classe java abstrata, com o objetivo de preparar metodos bases e encapsulalos.
+### Classe Singleton.
+Classe aonde a unica instancia do Singleton e seus metodos são criados.
 
-### Classes que extendem/extends a classe abstrata: treinoBulking.java e treinoCutting.java.
-Classes aonde se encontram duas funções espelhos, sendo elas com o seu modificador de acesso sendo Protected, ou seja podendo sobrescrever assim quando necessario na classe concreta.
+### Classe que a unica instancia do Singleton é utilizada singleObject.
+Classe aonde vemos a unica instancia do Singleton sendo utilizada de maneiras unicas a cada chamada e vendo se o hash code chega a ser alterado ou nao.
 
-### Classe concreta: main.java.
-Sendo ela a classe concreta, tendo nela as instancias das classes usadas como implemento da classe base.
-Também possuindo a execução das rotinas necessárias para o objetivo do projeto.
+
