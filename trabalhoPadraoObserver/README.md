@@ -1,26 +1,28 @@
-# Padrão SingletonMethod
+# Padrão Observer
 
 ## Descrição:
-### É uma classe instanciada apenas uma vez. Um singleton é geralmente o único componente do sistema, como um um gerenciador de janela num sistema operacional ou o sistema de arquivos.
+### Basicamente o padrão Observer tem como função observar possíveis eventos de algum projeto, só que além dessa função de observar ele pode também ter a função de noticiar essa mudança, ou evento que ocorreu, pois ele criado especificamente para notificar certo evento, em um determinado projeto.
 
 ## Motivação:
-### Foi um exemplo basico, mostrando uma string base para mais de uma chamada do singleton, para estudar mais o relacionamento dos hashCodes, vendo aonde e como eles podem mudar.
+### Após assistir um seminário de um ex aluno de Engenharia elétrica, falando sobre a construção de um sistema como o google Earth, perguntei a ele algo mais prático, um dos exemplos mais praticos que ele me disse, foi de existir a possibilidade de haver como se fosse um monitor, observando possiveis mudanças de uma montanha, ou algo que possa causar algum desastre.
 
 ## Aplicação:
-### Ver mais da naturezas dos hash.
+### Possivel de ver o aumento de distância de uma montanha a outro lugar.
 
 
 ## Estrutura:
-![structure](https://i.stack.imgur.com/KtHqz.jpg)
+![structure](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Observer.svg/500px-Observer.svg.png)
 
 
 ## Pasta com o codigo:
-[CODEPASTE](/trabalhoSingletonMethod/src/main)
+[CODEPASTE](/trabalhoPadraoObserver/src/trabalhoPadraoObserver)
 
-### Classe Singleton.
-Classe aonde a unica instancia do Singleton e seus metodos são criados.
+### Classe googleEarthObserver.
+Nesta classe  nota-se a presença da interface Subject e da sua classe concreta googleEarthObserver que define o comportamento dos objetos para se registrarem (Attach) .
+ E a existncia do método update() que é chamado quando o estado do Subject é alterado.
 
-### Classe que a unica instancia do Singleton é utilizada singleObject.
-Classe aonde vemos a unica instancia do Singleton sendo utilizada de maneiras unicas a cada chamada e vendo se o hash code chega a ser alterado ou nao.
-
+### Classe Subject e Observer.
+Classes aonde o principio do padrão observer são criados.
+O subject sendo aonde será montado a possivel lista de seus dependentes chamados de “observers”, e os notifica automaticamente de eventuais mudanças de estado, geralmente, chamando um dos seus métodos.
+E a classe abstrata Observer aonde será criado o que será observado e a forma de atualizar, para assim poder notificar.
 
