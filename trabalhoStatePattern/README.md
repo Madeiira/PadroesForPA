@@ -15,7 +15,7 @@
 
 
 ## Pasta com o codigo:
-[CODEPASTE](/trabalhoPadraoObserver/src/trabalhoStatePattern)
+[CODEPASTE](/trabalhoStatePattern/src/trabalhoStatePattern)
 
 ### Classe googleEarthObserver.
 Nesta classe  nota-se a presença da interface Subject e da sua classe concreta googleEarthObserver que define o comportamento dos objetos para se registrarem (Attach) .
