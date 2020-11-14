@@ -17,12 +17,20 @@
 ## Pasta com o codigo:
 [CODEPASTE](/trabalhoStatePattern/src/trabalhoStatePattern)
 
-### Classe googleEarthObserver.
-Nesta classe  nota-se a presença da interface Subject e da sua classe concreta googleEarthObserver que define o comportamento dos objetos para se registrarem (Attach) .
- E a existncia do método update() que é chamado quando o estado do Subject é alterado.
+### Classe Package.
+Como podemos ver, ele contém uma referência para gerenciar o estado, observe  os métodos previousState (), nextState () e  printStatus () onde delegamos o trabalho ao objeto de estado. Os estados serão vinculados uns aos outros e cada estado configurará outro com base nesta referência passada para ambos os métodos.
 
-### Classe Subject e Observer.
-Classes aonde o principio do padrão observer são criados.
-O subject sendo aonde será montado a possivel lista de seus dependentes chamados de “observers”, e os notifica automaticamente de eventuais mudanças de estado, geralmente, chamando um dos seus métodos.
-E a classe abstrata Observer aonde será criado o que será observado e a forma de atualizar, para assim poder notificar.
+
+### Classe contexto.
+Nesta classe é aonde é feito a solicitação, caso ele for fazer um nextState ou um previousState, passará nesta classe.
+
+# Utilizando um outro método pro statePattern
+
+### Classe state.
+Classe aonde criei interface de possiveis status, onde estão os contextos que serão modificados por cada state possivel neste programa.
+
+
+### Classe stateCura, stateLivre e stateParalasia.
+Classes que implementam a interface state, aonde é modificada o contexto e seus states.
+
 
