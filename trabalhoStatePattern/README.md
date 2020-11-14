@@ -1,21 +1,21 @@
-# Padrão Observer
+# Padrão State
 
 ## Descrição:
-### Basicamente o padrão Observer tem como função observar possíveis eventos de algum projeto, só que além dessa função de observar ele pode também ter a função de noticiar essa mudança, ou evento que ocorreu, pois ele criado especificamente para notificar certo evento, em um determinado projeto.
+### Esse padrão encapsula o estado em uma classe separada e delega a tarefa ao objeto que representa o estado atual.Sabemos que o comportamento mudará com o estado interno.
 
 ## Motivação:
-### Após assistir um seminário de um ex aluno de Engenharia elétrica, falando sobre a construção de um sistema como o google Earth, perguntei a ele algo mais prático, um dos exemplos mais praticos que ele me disse, foi de existir a possibilidade de haver como se fosse um monitor, observando possiveis mudanças de uma montanha, ou algo que possa causar algum desastre.
+### Inspirado em alguns exemplos dado pelo proprio professor.
 
 ## Aplicação:
-### Possivel de ver o aumento de distância de uma montanha a outro lugar.
+### Interação de efeitos e do sistema com um Jogador.
 
 
 ## Estrutura:
-![structure](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Observer.svg/500px-Observer.svg.png)
+![structure](https://www.devmedia.com.br/imagens/articles/208953/state1.PNG)
 
 
 ## Pasta com o codigo:
-[CODEPASTE](/trabalhoPadraoObserver/src/trabalhoPadraoObserver)
+[CODEPASTE](/trabalhoPadraoObserver/src/trabalhoStatePattern)
 
 ### Classe googleEarthObserver.
 Nesta classe  nota-se a presença da interface Subject e da sua classe concreta googleEarthObserver que define o comportamento dos objetos para se registrarem (Attach) .
