@@ -1,21 +1,21 @@
 # Padrão Strategy
 
 ## Descrição:
-### Esse padrão encapsula o estado em uma classe separada e delega a tarefa ao objeto que representa o estado atual.Sabemos que o comportamento mudará com o estado interno.
+### O padrão Strategy define uma família de algoritmos , encapsula cada um deles , e torna-os intercambiáveis, basicamente se torna possivel utilizar mesmos métodos, mas em funções diferentes, de estrategias diferentes
 
 ## Motivação:
-### Inspirado em alguns exemplos dado pelo proprio professor.
+### Basicamente algo que estava acontecendo ao redor do Brasil.
 
 ## Aplicação:
-### Interação de efeitos e do sistema com um Jogador.
+### Relacionar candidatos ao seus votos, de diferentes cidades.
 
 
 ## Estrutura:
-![structure](https://www.devmedia.com.br/imagens/articles/208953/state1.PNG)
+![structure](https://www.thiengo.com.br/img/post/normal/09j782i4d422a779bkf7907oi3950ab95fe613edf46f2c3cebb61d52d3.jpg)
 
 
 ## Pasta com o codigo:
-[CODEPASTE](/trabalhoStatePattern/src/trabalhoStatePattern)
+[CODEPASTE](/trabalhoStrategyP/src/main)
 
 ### Classe Package.
 Como podemos ver, ele contém uma referência para gerenciar o estado, observe  os métodos previousState (), nextState () e  printStatus () onde delegamos o trabalho ao objeto de estado. Os estados serão vinculados uns aos outros e cada estado configurará outro com base nesta referência passada para ambos os métodos.
